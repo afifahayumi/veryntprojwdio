@@ -1,0 +1,4 @@
+{
+  "using": "css selector",
+  "value": "#site-header > div > div.site-header__container > div > div.site-header__mobile.flex > div > div > div > div.search__wrapper > div.search__results.grid > div.search__items.grid > article:nth-child(1) > a"
+}
