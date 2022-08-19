@@ -1,0 +1,135 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1658720650087' stop='1658720653303'>
+    <name>The Internet Guinea Pig Website: As a user, I can log into the secure are</name>
+    <title>The Internet Guinea Pig Website: As a user, I can log into the secure are</title>
+    <test-cases>
+        <test-case start='1658720650087' status='passed' stop='1658720650088'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='1-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='firefox-102.0.1'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1658720650088' status='passed' stop='1658720652608'>
+            <name>Given I am on the verynt Page</name>
+            <title>Given I am on the verynt Page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='1-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='firefox-102.0.1'/>
+            </parameters>
+            <steps>
+                <step start='1658720650089' status='passed' stop='1658720652608'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='b759c28b-ab48-4cc0-992e-20c3fff1281b-attachment.json' type='application/json' size='38'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1658720652608' status='broken' stop='1658720653302'>
+            <name>When I click search</name>
+            <title>When I click search</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='1-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='firefox-102.0.1'/>
+            </parameters>
+            <steps>
+                <step start='1658720653111' status='passed' stop='1658720653150'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='9bdcb9bc-7cc8-4923-8121-b2c590c89ce3-attachment.json' type='application/json' size='87'/>
+                        <attachment title='Response' source='e1f8d73d-266a-4ba0-a876-5164b5fac531-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1658720653153' status='broken' stop='1658720653302'>
+                    <name>POST /session/:sessionId/element/dff5a80f-4a29-439b-9bcf-392a976e05f3/click</name>
+                    <title>POST /session/:sessionId/element/dff5a80f-4a29-439b-9bcf-392a976e05f3/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>element not interactable: Element &lt;button class="site-header__button site-header__button--search flex js-toggle-search"> could not be scrolled into view</message>
+                <stack-trace>element not interactable: Element &lt;button class="site-header__button site-header__button--search flex js-toggle-search"> could not be scrolled into view
+                    at processTicksAndRejections (node:internal/process/task_queues:95:5)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1658720653302' status='pending' stop='1658720653302'>
+            <name>When I Set customer solution</name>
+            <title>When I Set customer solution</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='1-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='firefox-102.0.1'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1658720653303' status='pending' stop='1658720653303'>
+            <name>Then I can see result on search page</name>
+            <title>Then I can see result on search page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='1-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='firefox-102.0.1'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1658720653303' status='pending' stop='1658720653303'>
+            <name>Then i can see result by Customer Solution</name>
+            <title>Then i can see result by Customer Solution</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='1-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='firefox-102.0.1'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1658720653303' status='passed' stop='1658720653303'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='1-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='firefox-102.0.1'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
